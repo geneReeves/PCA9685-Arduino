@@ -4,6 +4,10 @@
     "description": "Arduino Library for the PCA9685 16-Channel PWM Driver Module with read and write functions",
     "authors": [
     {
+        "name": "Paul Kerspe",
+        "maintainer": true
+    },
+    {
         "name": "Kasper Skårhøj",
         "url": "https://github.com/kasperskaarhoj"
     },
@@ -17,6 +21,11 @@
     }],
     "version": "0.1",
     "downloadUrl": "https://github.com/pkerspe/PCA9685-Arduino/archive/master.zip",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/pkerspe/PCA9685-Arduino.git"
+    },
     "export": {
         "include": "Wire"
     },
