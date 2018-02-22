@@ -1,0 +1,25 @@
+{
+    "name": "PCA9685-ESP32",
+    "keywords": "PCA9685, Arduino, ESP32, PWM, Controller",
+    "description": "Arduino Library for the PCA9685 16-Channel PWM Driver Module with read and write functions",
+    "authors":
+    {
+        "name": "Kasper Skårhøj",
+        "url": "https://github.com/kasperskaarhoj"
+    },
+    {
+      "name": "Vitska",
+      "url": "https://github.com/vitska"
+    },
+    {
+      "name": "NachtRaveVL",
+      "url": "https://github.com/NachtRaveVL"
+    }
+    "version": "0.1",
+    "downloadUrl": "https://github.com/pkerspe/PCA9685-Arduino/archive/master.zip",
+    "export": {
+        "include": "Wire"
+    },
+    "frameworks": "arduino",
+    "platforms": "espressif32"
+}
